@@ -20,8 +20,11 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (put 'upcase-region 'disabled nil)
 
-;; highlight line
+;; underline line
 (global-hl-line-mode 1)
+(set-face-background 'highlight nil)
+(set-face-foreground 'highlight nil)
+(set-face-underline-p 'highlight t)
 
 ;; Show lines at left
 (global-linum-mode 1)
