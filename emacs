@@ -29,7 +29,7 @@
 (set-face-underline-p 'highlight t)
 
 ;; Show lines at left
-(global-linum-mode 1)
+(add-hook 'prog-mode-hook 'linum-mode)
 
 ;; Show line-number in the mode line
 (line-number-mode 1)
