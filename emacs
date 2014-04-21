@@ -16,6 +16,7 @@
 
 (global-set-key (kbd "C-c c") 'compile)
 (global-set-key (kbd "RET") 'newline-and-indent)
+(global-set-key (kbd "C-c C-c") 'comment-region)
 
 (setq-default show-trailing-whitespace t)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
