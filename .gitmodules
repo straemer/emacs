@@ -1,0 +1,3 @@
+[submodule "submodules/rust-mode"]
+	path = submodules/rust-mode
+	url = https://github.com/toshok/rust-mode.git

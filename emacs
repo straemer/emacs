@@ -44,3 +44,6 @@
 
 ;; Tabs shit
 (setq-default indent-tabs-mode nil)
+
+(add-to-list 'load-path "~/Programs/emacs/submodules/rust-mode/")
+(require 'rust-mode)
