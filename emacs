@@ -47,6 +47,7 @@
 
 ;; Tabs shit
 (setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 
 (add-to-list 'load-path (concat install-dir "submodules/rust-mode/"))
 (require 'rust-mode)
