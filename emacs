@@ -14,6 +14,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(set 'install-dir "~/Programs/emacs/")
+
 (global-set-key (kbd "C-c c") 'compile)
 (global-set-key (kbd "RET") 'newline-and-indent)
 (global-set-key (kbd "C-c C-c") 'comment-region)
@@ -46,8 +48,8 @@
 ;; Tabs shit
 (setq-default indent-tabs-mode nil)
 
-(add-to-list 'load-path "~/Programs/emacs/submodules/rust-mode/")
+(add-to-list 'load-path (concat install-dir "submodules/rust-mode/"))
 (require 'rust-mode)
 
-(add-to-list 'load-path "~/Programs/emacs/submodules/lua-mode/")
+(add-to-list 'load-path (concat install-dir "submodules/lua-mode/"))
 (require 'lua-mode)
