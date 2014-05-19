@@ -47,3 +47,6 @@
 
 (add-to-list 'load-path "~/Programs/emacs/submodules/rust-mode/")
 (require 'rust-mode)
+
+(add-to-list 'load-path "~/Programs/emacs/submodules/lua-mode/")
+(require 'lua-mode)
