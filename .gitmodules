@@ -4,3 +4,6 @@
 [submodule "submodules/lua-mode"]
 	path = submodules/lua-mode
 	url = https://github.com/immerrr/lua-mode.git
+[submodule "submodules/php-mode"]
+	path = submodules/php-mode
+	url = https://github.com/ejmr/php-mode.git

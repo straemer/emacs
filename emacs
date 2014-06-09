@@ -54,3 +54,6 @@
 
 (add-to-list 'load-path (concat install-dir "submodules/lua-mode/"))
 (require 'lua-mode)
+
+(add-to-list 'load-path (concat install-dir "submodules/php-mode/"))
+(require 'php-mode)
