@@ -7,3 +7,6 @@
 [submodule "submodules/php-mode"]
 	path = submodules/php-mode
 	url = https://github.com/ejmr/php-mode.git
+[submodule "submodules/jam-mode"]
+	path = submodules/jam-mode
+	url = https://github.com/emacsmirror/jam-mode.git
