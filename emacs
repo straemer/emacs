@@ -58,4 +58,7 @@
 (add-to-list 'load-path (concat install-dir "submodules/php-mode/"))
 (require 'php-mode)
 
+(add-to-list 'load-path (concat install-dir "submodules/jam-mode/"))
+(require 'jam-mode)
+
 (set 'temporary-file-directory "/tmp")
