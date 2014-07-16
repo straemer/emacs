@@ -60,5 +60,7 @@
 
 (add-to-list 'load-path (concat install-dir "submodules/jam-mode/"))
 (require 'jam-mode)
+(add-to-list 'auto-mode-alist '("\\.jam$" . jam-mode))
+(add-to-list 'auto-mode-alist '("Jamfile.*" . jam-mode))
 
 (set 'temporary-file-directory "/tmp")
