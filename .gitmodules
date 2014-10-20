@@ -10,3 +10,6 @@
 [submodule "submodules/jam-mode"]
 	path = submodules/jam-mode
 	url = https://github.com/emacsmirror/jam-mode.git
+[submodule "submodules/Fill-Column-Indicator"]
+	path = submodules/Fill-Column-Indicator
+	url = https://github.com/alpaker/Fill-Column-Indicator.git

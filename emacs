@@ -60,6 +60,14 @@
 
 (add-to-list 'load-path (concat install-dir "submodules/jam-mode/"))
 (require 'jam-mode)
+
+(add-to-list 'load-path (concat install-dir "submodules/Fill-Column-Indicator/"))
+(require 'fill-column-indicator)
+(setq-default fci-rule-column 80)
+
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode 1)
+
 (add-to-list 'auto-mode-alist '("\\.jam$" . jam-mode))
 (add-to-list 'auto-mode-alist '("Jamfile.*" . jam-mode))
 
