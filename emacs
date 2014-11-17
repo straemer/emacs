@@ -45,6 +45,11 @@
 ;; open .h files in C++ mode
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 
+(add-hook 'c-mode-hook 'c-mode-customization)
+(defun c-mode-customization ()
+  (setq comment-start "//")
+  (setq comment-end ""))
+
 ;; Tabs shit
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
