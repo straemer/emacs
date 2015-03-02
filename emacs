@@ -14,6 +14,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(set-default-font "Courier New 14")
+
 (set 'install-dir "~/Programs/emacs/")
 
 (global-set-key (kbd "C-c c") 'compile)
