@@ -13,3 +13,6 @@
 [submodule "submodules/Fill-Column-Indicator"]
 	path = submodules/Fill-Column-Indicator
 	url = https://github.com/alpaker/Fill-Column-Indicator.git
+[submodule "submodules/xcscope"]
+	path = submodules/xcscope
+	url = git@github.com:dkogan/xcscope.el.git

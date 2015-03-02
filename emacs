@@ -74,6 +74,9 @@
 (add-to-list 'load-path (concat install-dir "submodules/Fill-Column-Indicator/"))
 (require 'fill-column-indicator)
 
+(add-to-list 'load-path (concat install-dir "submodules/xcscope"))
+(require 'xcscope)
+
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode 1)
 
