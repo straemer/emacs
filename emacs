@@ -50,7 +50,7 @@
 ;; C Mode stuff
 (setq-default c-basic-offset 4)
 ;; open .h files in C++ mode
-(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
+; (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 
 (add-hook 'c-mode-hook 'c-mode-customization)
 (defun c-mode-customization ()
