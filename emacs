@@ -87,3 +87,6 @@
 (add-to-list 'auto-mode-alist '("Jamfile.*" . jam-mode))
 
 (set 'temporary-file-directory "/tmp")
+
+;; Confirm exit
+(setq confirm-kill-emacs 'y-or-n-p)
