@@ -28,7 +28,7 @@
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
 
 (setq-default show-trailing-whitespace t)
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
+; (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (put 'upcase-region 'disabled nil)
 
 ;; underline line
