@@ -15,7 +15,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-(set-default-font "Courier New 14")
+(add-to-list 'default-frame-alist '(font . "Courier New 14"))
+(set-face-attribute 'default t :font "Courier New 14")
 
 (set 'install-dir "~/Programs/emacs/")
 
