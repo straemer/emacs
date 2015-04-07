@@ -95,3 +95,7 @@
 
 ;; Confirm exit
 (setq confirm-kill-emacs 'y-or-n-p)
+
+;; Disable toolbar and menubar
+(tool-bar-mode 0)
+(menu-bar-mode 0)
