@@ -93,6 +93,8 @@
 (add-to-list 'auto-mode-alist '("\\.jam$" . jam-mode))
 (add-to-list 'auto-mode-alist '("Jamfile.*" . jam-mode))
 
+(add-to-list 'auto-mode-alist '("\\.gdb$" . gdb-script-mode))
+
 (set 'temporary-file-directory "/tmp")
 
 ;; Confirm exit
