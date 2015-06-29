@@ -29,6 +29,7 @@
 
 (global-set-key (kbd "C-s") 'isearch-forward-regexp)
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
+(global-set-key (kbd "M-%") 'query-replace-regexp)
 
 (setq-default show-trailing-whitespace t)
 ; (add-hook 'before-save-hook 'delete-trailing-whitespace)
