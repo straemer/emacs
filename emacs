@@ -88,6 +88,9 @@
 (require 'xcscope)
 (cscope-setup)
 
+(add-to-list 'load-path (concat install-dir "submodules/yaml-mode"))
+(require 'yaml-mode)
+
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode 1)
 

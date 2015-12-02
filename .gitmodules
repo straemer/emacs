@@ -16,3 +16,6 @@
 [submodule "submodules/xcscope"]
 	path = submodules/xcscope
 	url = git@github.com:dkogan/xcscope.el.git
+[submodule "submodules/yaml-mode"]
+	path = submodules/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
